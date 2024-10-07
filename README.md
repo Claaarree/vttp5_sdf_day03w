@@ -54,15 +54,18 @@ directory. If the database file does not exist, create the file. Eg
 login fred
 will load the file cartdb/fred.db where cartdb is the shopping cart
 directory
+
 • `save` - save the contents of the cart to the user’s shopping cart file eg
 cartdb/fred.db. If you try to save without first login a particular user,
 you should print a message reminding the user to first login as a particular
 user.
 The save format will be described below.
+
 • `users` - list all users; this is the listing all the filenames under the shopping
 cart directory
 Create a class called ShoppingCartDB to manage the database; the class
 should contain methods like load a shopping cart, save a shopping cart, etc.
+
 ### Task 3
 You should save the contents of a shopping cart as text file. If fred has the
 following items in his cart: apple, orange, pear then his cart will be stored as
