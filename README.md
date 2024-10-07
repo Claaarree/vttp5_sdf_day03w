@@ -4,7 +4,8 @@ The objective of this workshop is to implement a simple text file database
 ## Setup
 a. Create a branch from day 1 workshop (shopping cart)
 ## Workshop
-Extend day 1 workshop to perform the following. The > is the prompt
+Extend day 1 workshop to perform the following. 
+The > is the prompt
 ```
 Welcome to your shopping cart
 > login fred
