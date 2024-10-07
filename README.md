@@ -49,6 +49,7 @@ default to use a directory called db. If this directory does not exist, create i
 ### Task 2
 Implement the following additional commands (in addition to those from day 1
 workshop)
+
 • `login` - load the specified user’s database file from the shopping cart
 directory. If the database file does not exist, create the file. Eg
 login fred
