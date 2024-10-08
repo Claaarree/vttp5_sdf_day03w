@@ -17,7 +17,8 @@ public class Hangman {
             System.out.println("Welcome, please choose and option below:");
             System.out.println("1. Play");
             System.out.println("2. Quit");
-            menuInput = console.readln("Option number: ");
+            System.out.println("Option number: ");
+            menuInput = console.readLine();
             if (menuInput.equals("1")) {
                 play();
             }
@@ -109,7 +110,8 @@ public class Hangman {
         int livesLeft = 5;
 
         while (livesLeft > 0 && Arrays.compare(currAns, wordSplit)!=0){
-            input = console.readln("\nGuess a letter or the word:").trim();
+            System.out.println("\nGuess a letter or the word:");
+            input = console.readLine().trim();
             int inputLength = input.length();
             if(inputLength ==1){
                 boolean isGuessCorrect = false;
@@ -141,6 +143,7 @@ public class Hangman {
         if (livesLeft > 0) {
             System.out.println("Good Job!");
         } else {
+            System.out.println("The word was " + wordToGuess);
             System.out.println("Try Again!");
         }
         
